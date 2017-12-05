@@ -1,0 +1,38 @@
+
+
+.login-card {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin:20px auto;
+    padding: 20px 0; 
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+    
+  .action-button{
+    display: flex;
+  }
+
+  .action-button-bw{
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  .bottom-action-section{
+      padding: 10px 0;
+  }
+
+  @media (max-width:600px){
+
+    .login-card {
+        margin:0;
+        padding: 0;
+      }
+      .mat-card:not([class*=mat-elevation-z]) {
+        box-shadow: none;
+    }
+  }
